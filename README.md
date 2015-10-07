@@ -1,2 +1,2 @@
 # csci-2000u
-- [] test
+- Hello my name is Nicky and dis iz mi repostitory 

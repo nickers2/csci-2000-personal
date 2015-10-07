@@ -1,0 +1,19 @@
+a) echo hello world	
+b) echo {con,pre}{sent,fer}{s,ed}
+c) date
+d) whoami
+e) cal 2000
+f) cal 1752
+g) bc -l
+h) echo 5+4 | bc -l
+
+a) displays the line hello world
+b) displays the outcome of the brackets multiplied: consents concented confers confered presents presented prefers prefered
+c) displays the current date, time, and time zone
+d) displays the current user
+e) displays the calender of the year 2000
+f) displays the 9th month of the year 1752. The unusual thing about this command is that it skips days 3-13 
+g) bc is an arbitrary percision calculator language while the -l defines the standard math library
+h) displays the calculation piped to the arbitrary percision calculator 
+
+ 

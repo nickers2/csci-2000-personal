@@ -4,5 +4,6 @@ for line in reader
 	line = False
 	fine "e"
 	rm "e"
+reader.close()
 
 

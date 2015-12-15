@@ -4,7 +4,7 @@
 # except the two header lines?
 # Enter the relevant Unix command(s) used below.
 
-
+print classlist.csv | head -2
 
 
 # part (b)
@@ -13,7 +13,9 @@
 # Enter the relevant Unix command(s) used below as well as the number
 # of students in the list.
 
+classlist.csv | length -1
 
+there are 130 students
 
 
 # part (c)
@@ -24,7 +26,9 @@
 # Enter the relevant Unix command(s) used below as well as the names
 # of the first and last students in the new list.
 
-
+classlist.csv | sort $2 -d 
+name at top: Alpha Foushee
+name at bottom: Xavier Almy
 
 
 # part (d)
@@ -33,11 +37,13 @@
 # repeated in the class list?
 # Enter the relevant name(s) and the Unix command(s) below.
 
-
-
+uniq -u
+repeated names: diego 
 
 # part (f) [BONUS]
 # Construct a Unix pipeline that extracts the last three digits of
 # the student number and the first character of the first name to make
 # a four-character identifier for each student.
 # Enter the relevant Unix command(s) used below.
+
+classlist.csv | echo $STUDENTNUM tail -3 | $2 head - 1
